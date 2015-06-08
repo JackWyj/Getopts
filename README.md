@@ -29,8 +29,8 @@
         
   string是你定义的参数，只能用字母或者数字，mode可选的有
   
-  i（int）,d（double）,f（float）,s（string），vi(vector<int>),         
-  vd(vector<double>), vf(vector<float>), vs(vector<string>)。
+  i（int）,d（double）,f（float）,s（string），vi(vector\<int\>),         
+  vd(vector\<double\>), vf(vector\<float\>), vs(vector\<string\>)。
   
   每次定义一个规则之后，就必须用";"结束该规则。  在定义了之后，可以用一些变量来存取解析的结果，
   getopt.set_long_param(in, true, &d, &f, &i, &b);
